@@ -125,5 +125,16 @@ A **Use Case Diagram** is a graphical representation of a system’s interaction
 
 ### **📷 Linked Use Case Diagram:**  
 ![Use Case Diagram](alx-booking-uc.png)  
+Acceptance Criteria
+📌 What is Acceptance Criteria?
+Acceptance Criteria are predefined conditions that must be met for a feature to be considered successfully implemented. They help define what the system must achieve to satisfy users' requirements.
 
+🔹 Importance of Acceptance Criteria in Requirement Analysis
+✅ Ensures Clarity – Defines measurable conditions that must be met before marking a feature as complete. ✅ Reduces Miscommunication – Aligns expectations between developers, testers, and stakeholders. ✅ Improves Testability – Helps QA teams verify if a feature works as intended. ✅ Supports Agile Development – Ensures features meet business needs before release.
+
+📌 Example: Acceptance Criteria for Checkout Feature
+Feature: Hotel Booking Checkout Process
+🔹 Scenario 1: Successful Checkout ✅ User must be logged in to proceed with checkout. ✅ Booking summary (hotel name, check-in/check-out dates, total cost) must be displayed. ✅ User selects a payment method from available options. ✅ Payment gateway processes the transaction securely. ✅ Confirmation page must display booking details and payment success message.
+
+🔹 Scenario 2: Failed Payment Handling ✅ If payment fails, the system must display an error message. ✅ Failed transactions should not be marked as confirmed bookings. ✅ User must be allowed to retry payment with another method.
 
