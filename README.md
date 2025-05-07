@@ -51,4 +51,35 @@ Requirement Analysis serves as the **bridge** between developers, business analy
 - Improves overall **development workflow**, making projects more structured and predictable.  
 
 Requirement Analysis is the **foundation of successful software development**, ensuring that projects move forward with clarity and precision. 🚀  
+## Key Activities in Requirement Analysis  
+
+Requirement Analysis consists of several structured activities that help define, document, and validate the needs of a software project. These activities ensure that the system meets user expectations and business goals before development begins.  
+
+### 📌 **1. Requirement Gathering**  
+- Collecting information from stakeholders, end-users, and project sponsors about their needs and expectations.  
+- Using surveys, interviews, workshops, and brainstorming sessions to gather insights.  
+- Understanding business objectives to align system functionality with real-world use cases.  
+
+### 📌 **2. Requirement Elicitation**  
+- Extracting hidden or unstated needs from stakeholders through detailed discussions.  
+- Identifying challenges, constraints, and critical system behaviors.  
+- Engaging with domain experts and users to refine expectations.  
+
+### 📌 **3. Requirement Documentation**  
+- Structuring requirements into a **clear, organized format** using **text, tables, and diagrams**.  
+- Creating **Software Requirement Specification (SRS)** documents.  
+- Ensuring requirements are detailed, well-written, and understandable by all stakeholders.  
+
+### 📌 **4. Requirement Analysis and Modeling**  
+- Categorizing requirements into **functional** (system actions) & **non-functional** (performance, security, reliability).  
+- Creating **use case diagrams, data flow diagrams, and process models** to visualize system operations.  
+- Reviewing dependencies between different requirements for completeness and consistency.  
+
+### 📌 **5. Requirement Validation**  
+- Checking if requirements are **complete, feasible, testable, and aligned** with business goals.  
+- Conducting peer reviews, stakeholder meetings, and prototype evaluations to confirm accuracy.  
+- Refining requirements based on feedback before finalizing the documentation.  
+
+Each of these activities is essential for ensuring that the software meets user needs, operates efficiently, and aligns with overall project objectives! 🚀  
+
 
