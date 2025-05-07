@@ -126,15 +126,33 @@ A **Use Case Diagram** is a graphical representation of a system’s interaction
 ### **📷 Linked Use Case Diagram:**  
 ![Use Case Diagram](alx-booking-uc.png)  
 Acceptance Criteria
-📌 What is Acceptance Criteria?
-Acceptance Criteria are predefined conditions that must be met for a feature to be considered successfully implemented. They help define what the system must achieve to satisfy users' requirements.
+🔹 What is Acceptance Criteria?
+Acceptance Criteria are predefined conditions that must be met for a feature to be considered complete and functional. They help ensure that the system meets user expectations and business requirements.
 
 🔹 Importance of Acceptance Criteria in Requirement Analysis
-✅ Ensures Clarity – Defines measurable conditions that must be met before marking a feature as complete. ✅ Reduces Miscommunication – Aligns expectations between developers, testers, and stakeholders. ✅ Improves Testability – Helps QA teams verify if a feature works as intended. ✅ Supports Agile Development – Ensures features meet business needs before release.
+✅ Ensures Clear Requirements Defines exact conditions a feature must meet.
 
-📌 Example: Acceptance Criteria for Checkout Feature
-Feature: Hotel Booking Checkout Process
-🔹 Scenario 1: Successful Checkout ✅ User must be logged in to proceed with checkout. ✅ Booking summary (hotel name, check-in/check-out dates, total cost) must be displayed. ✅ User selects a payment method from available options. ✅ Payment gateway processes the transaction securely. ✅ Confirmation page must display booking details and payment success message.
+✅ Avoids Miscommunication Aligns understanding between developers, testers, and stakeholders.
 
-🔹 Scenario 2: Failed Payment Handling ✅ If payment fails, the system must display an error message. ✅ Failed transactions should not be marked as confirmed bookings. ✅ User must be allowed to retry payment with another method.
+✅ Improves Testing Helps QA teams verify if a feature functions correctly.
 
+✅ Supports Agile Development Ensures a feature meets business needs before release.
+
+Example: Checkout Feature in the Booking System
+🔹 Scenario 1: Successful Checkout
+✔ User must be logged in Required to complete the checkout process.
+
+✔ The system must display a booking summary Includes hotel name, check-in/check-out dates, and total cost.
+
+✔ User selects a payment method Chooses from available payment options.
+
+✔ Payment gateway processes the transaction securely Must work without errors.
+
+✔ Confirmation page appears Shows booking details and payment success message.
+
+🔹 Scenario 2: Failed Payment Handling
+❌ If payment fails, the system must display an error message
+
+❌ Failed transactions must NOT be marked as confirmed bookings
+
+✔ User should be able to retry payment with another method
