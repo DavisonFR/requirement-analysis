@@ -81,5 +81,36 @@ Requirement Analysis consists of several structured activities that help define,
 - Refining requirements based on feedback before finalizing the documentation.  
 
 Each of these activities is essential for ensuring that the software meets user needs, operates efficiently, and aligns with overall project objectives! 🚀  
+## Types of Requirements  
+
+Requirement Analysis includes two primary categories: **Functional Requirements** and **Non-functional Requirements**. Both are essential for building a scalable, user-friendly, and efficient **hotel booking management system**.  
+
+### **📌 Functional Requirements**  
+Functional requirements define the **specific actions** that the system must perform to meet business and user needs.  
+
+🔹 **Examples for the Booking Management System:**  
+✅ **Hotel Listing & Management** – Hotel managers can add, update, and remove hotel details.  
+✅ **Search & Filtering** – Customers can search hotels based on location, price, ratings, and availability.  
+✅ **Booking Process** – Users can select a hotel, choose check-in/check-out dates, and confirm reservations.  
+✅ **Payment Integration** – Secure transaction processing via third-party payment services.  
+✅ **User Authentication & Profiles** – Customers and hotel managers must log in to access features.  
+✅ **Booking Cancellation & Refunds** – Customers can cancel bookings within a specified timeframe with refunds processed accordingly.  
+✅ **Notifications & Alerts** – Automated messages sent for booking confirmations, cancellations, and updates.  
+
+---
+
+### **📌 Non-functional Requirements**  
+Non-functional requirements define the **performance, security, and reliability** aspects of the system rather than its direct functions.  
+
+🔹 **Examples for the Booking Management System:**  
+✅ **Scalability** – The system can handle **high traffic volumes** using microservices and load balancers.  
+✅ **Performance Optimization** – The use of **Redis caching** reduces database load and accelerates responses.  
+✅ **Security & Data Protection** – User authentication, **encryption**, and compliance with **GDPR** standards.  
+✅ **Availability & Reliability** – The system ensures **99.9% uptime** for uninterrupted booking services.  
+✅ **Database Management** – Master-slave architecture for efficient **read/write operations** without downtime.  
+✅ **Fast Search Experience** – **Elasticsearch** improves response time for hotel searches.  
+✅ **Archival & Backup** – Old booking data stored in **Cassandra**, preventing performance degradation.  
+
+Requirement Analysis ensures the booking system functions correctly while maintaining **speed, security, and efficiency**—critical for handling millions of users daily! 🚀  
 
 
