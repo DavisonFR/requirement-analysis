@@ -112,5 +112,18 @@ Non-functional requirements define the **performance, security, and reliability*
 ✅ **Archival & Backup** – Old booking data stored in **Cassandra**, preventing performance degradation.  
 
 Requirement Analysis ensures the booking system functions correctly while maintaining **speed, security, and efficiency**—critical for handling millions of users daily! 🚀  
+## Use Case Diagrams  
+
+### 📌 What are Use Case Diagrams?  
+A **Use Case Diagram** is a graphical representation of a system’s interactions with external users (**actors**). It helps illustrate **what functions the system provides** and how users interact with it.  
+
+### 🔹 Benefits of Use Case Diagrams  
+✅ **Improves Clarity:** Breaks down system functionalities into an easy-to-read diagram.  
+✅ **Defines User Actions:** Shows different roles and their allowed operations.  
+✅ **Supports Requirement Analysis:** Ensures that functional requirements are well understood.  
+✅ **Enhances Communication:** Acts as a blueprint for discussions between developers, stakeholders, and clients.  
+
+### **📷 Linked Use Case Diagram:**  
+![Use Case Diagram](alx-booking-uc.png)  
 
 
